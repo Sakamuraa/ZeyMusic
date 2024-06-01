@@ -38,18 +38,21 @@ DEVUID=yourDiscordUID *
 DATABASE_URL="dbArch://user:pass@host:port/db" * # If you want DB functionality
 ```
   - To actually set up the bot and get it running, you can follow one of these steps:
-    - With Docker:
-      You can follow [this instructions](https://github.com/wtfnotavailable/Discord-MusicBot?tab=readme-ov-file#docker-setup) to set up the bot with Docker
-
-    - Without Docker:
-      You need to install all required dependencies and post slash commands to the discord bot application
+    - You need to install all required dependencies and post slash commands to the discord bot application
       ```bash
       npm run update
       npm run deploy # this should be a one time thing
       ```
-      To run the bot:
+    - To run the bot:
       ```bash
       npm run start
       # or
       npm run db-start # if you have your own DB setup
       ```
+## 📝 | Licensing / Liability
+
+This Discord bot is named after, but has no association to the virtual YouTuber [Zeyayaya](https://www.youtube.com/@ZeyaHaize), or their fan/viewer (fanbase) named [Pond of Dream](https://discord.gg/xsKTqMmwmb).
+
+ZeyMusic is licensed under the Apache 2.0 license, viewable in the [LICENSE](https://github.com/Sakamuraa/ZeyMusic/blob/main/LICENSE) file. 
+
+This is an open-source repo with all the considerations we have thought about carefully. If this is bought and sold, it is beyond our responsibility.

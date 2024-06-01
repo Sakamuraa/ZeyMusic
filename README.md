@@ -5,15 +5,6 @@
 
 > NOTE: Lavalink is needed for music functionality. You need to have a working Lavalink server to make the bot work.
 
-
-## 📝 | Important Note if you're Switching from v4 to v5
-
-1. Download and configure v5 in a seperate folder.
-2. Kick your bot out of your server.
-3. Reinvite the Bot with the right
-   scopes. [Example Invite URL (Change CLIENT_ID)](https://discord.com/oauth2/authorize?client_id=CLIENT_ID&permissions=277083450689&scope=bot%20applications.commands)
-4. Run `npm run deploy` or `yarn deploy` to initialize the slash commands. _You can do this on your pc locally_
-
 ## 🏃‍♂ | Installing and running the bot from scratch
 
 ### First of all you'll need to create a new bot application for your discord bot client:

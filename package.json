@@ -1,8 +1,8 @@
 {
-	"description": "",
+	"description": "A music discord bot with discord.js v14",
 	"main": "index.js",
 	"version": "5.5.1",
-	"name": "discord-musicbot",
+	"name": "zeymusic",
 	"scripts": {
 		"guild": "npm run api-build && node scripts/guild",
 		"deploy": "npm run api-build && node scripts/global",
@@ -24,7 +24,7 @@
 		"discord-music",
 		"discord-musicbot"
 	],
-	"author": "SudhanPlayz",
+	"author": "Sakamura",
 	"license": "CUSTOM",
 	"dependencies": {
 		"@fastify/cors": "^8.5.0",
